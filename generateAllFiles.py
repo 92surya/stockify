@@ -125,7 +125,7 @@ def main(argv):
                 month = month + 1
             year = year + 1
     else:
-        generateSBINFile(year, month, day)
+        generateSBINFile(year, month, day, name)
         generateEQFile(year, month, day)
         generateFOFile(year, month, day)
         generateNIFTYFile(year, month, day)
